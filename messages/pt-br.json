@@ -1,0 +1,12 @@
+{
+  "HomePage": {
+    "title": "Ola mundo!",
+    "about": "Vai la "
+  },
+  "Navbar" : {
+    "menu": "Menu" ,
+    "aboutUs": "Sobre nós",
+    "contact": "Contato",
+    "orderNow": "Peça agora"
+  }
+}
