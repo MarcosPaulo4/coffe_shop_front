@@ -119,7 +119,7 @@ export const theme = createTheme(baseTheme, {
     MuiButton: {
       styleOverrides: {
         containedPrimary: {
-          width: "110px",
+          width: "120px",
           height: "40px",
           borderRadius: "0px",
           textTransform: "none",
