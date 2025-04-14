@@ -21,6 +21,6 @@ export const StyledLink = styled(Link)(({ theme }) => ({
   fontWeight: theme.typography.h6.fontWeight,
   "&:hover": {
     color: theme.palette.primary.main,
-    textDecoration: "underline",
+    textDecoration: "none",
   },
 }));

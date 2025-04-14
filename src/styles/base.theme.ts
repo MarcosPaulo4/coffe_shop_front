@@ -119,8 +119,6 @@ export const theme = createTheme(baseTheme, {
     MuiButton: {
       styleOverrides: {
         containedPrimary: {
-          width: "120px",
-          height: "40px",
           borderRadius: "0px",
           textTransform: "none",
           backgroundColor: baseTheme.palette.primary.main, 
@@ -145,26 +143,7 @@ export const theme = createTheme(baseTheme, {
         }
       }
     },
-    MuiContainer: {
-      styleOverrides: {
-        root: {
-          paddingLeft: "88px !important",
-          paddingRight: "88px !important",
-          [baseTheme.breakpoints.only("md")]: {
-            paddingLeft: "48px !important",
-            paddingRight: "48px !important",
-          },
-          [baseTheme.breakpoints.only("sm")]: {
-            paddingLeft: "38px !important",
-            paddingRight: "38px !important",
-          },
-          [baseTheme.breakpoints.only("xs")]: {
-            paddingLeft: "32px !important",
-            paddingRight: "32px !important",
-          },
-        },
-      },
-    },
+
   },
 });
 

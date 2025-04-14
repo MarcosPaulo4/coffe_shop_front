@@ -1,7 +1,9 @@
+import CloseIcon from '@mui/icons-material/Close';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
-import { Box, ClickAwayListener, IconButton, Link, Paper, Popper } from "@mui/material";
+import { Box, IconButton, Paper, Popper } from "@mui/material";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
+import { StyledLink } from './styles/StyledComponents.theme';
 
 
 export const HamburguerMenu = () => {
@@ -15,11 +17,6 @@ export const HamburguerMenu = () => {
 
   };
 
-  const handleClose = () => {
-    setIsOpen((previousOpen) => !previousOpen);
-
-  }
-
   const canBeOpen = isOpen && Boolean(anchorEl);
   const id = canBeOpen ? 'transition-popper' : undefined;
 
@@ -30,7 +27,9 @@ export const HamburguerMenu = () => {
         edge="start"
         aria-label='menu'
         onClick={handleClick}>
-        <MenuOutlinedIcon />
+        {isOpen ? (
+          <CloseIcon />
+        ) : <MenuOutlinedIcon />}
       </IconButton>
       <Popper
         id={id}
@@ -39,15 +38,13 @@ export const HamburguerMenu = () => {
         disablePortal
         style={{ paddingTop: 13 }}
       >
-        <ClickAwayListener onClickAway={handleClose}>
-          <Paper >
-            <Box display="flex" flexDirection="column" gap={1} alignItems="center" width={150} >
-              <Link underline='none' href="#">{translate('menu')}</Link>
-              <Link underline='none' href="#" >{translate('aboutUs')}</Link>
-              <Link underline='none' href="#" >{translate('contact')}</Link>
-            </Box>
-          </Paper>
-        </ClickAwayListener>
+        <Paper >
+          <Box display="flex" flexDirection="column" gap={1} alignItems="center" width={200}>
+            <StyledLink href="#">{translate('menu')}</StyledLink>
+            <StyledLink href="#" >{translate('aboutUs')}</StyledLink>
+            <StyledLink href="#" >{translate('contact')}</StyledLink>
+          </Box>
+        </Paper>
 
       </Popper>
 

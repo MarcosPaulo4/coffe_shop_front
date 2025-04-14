@@ -30,7 +30,10 @@ const PrimaryNavBar = () => {
                 <StyledLink href="#" >{translate('contact')}</StyledLink>
               </Box>
 
-              <Button variant="contained">
+              <Button variant="contained" style={{
+                width: 120,
+                height: 40
+              }}>
                 {translate('orderNow')}
               </Button>
             </StyledToolbar>

@@ -1,6 +1,6 @@
 import { routing } from "@/i18n/routing";
 import theme from "@/styles/base.theme";
-import { ThemeProvider } from "@mui/material";
+import { Box, ThemeProvider } from "@mui/material";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 import type { Metadata } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
@@ -26,13 +26,13 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body>
+      <Box>
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
             <NextIntlClientProvider>{children}</NextIntlClientProvider>
           </ThemeProvider>
         </AppRouterCacheProvider>
-      </body>
+      </Box>
     </html>
   );
 }
