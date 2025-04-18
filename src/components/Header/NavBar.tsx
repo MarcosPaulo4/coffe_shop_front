@@ -2,12 +2,12 @@
 import LocalCafeOutlinedIcon from '@mui/icons-material/LocalCafeOutlined';
 import { AppBar, Box, Button, Link, Typography, useMediaQuery, useTheme } from "@mui/material";
 import { useTranslations } from 'next-intl';
+import { StyledLink, StyledToolbar } from '../../styles/componentStyles/StyledComponents.theme';
 import MobileNavBar from './MobileNavBar';
-import { StyledLink, StyledToolbar } from './styles/StyledComponents.theme';
 
 
 const PrimaryNavBar = () => {
-  const translate = useTranslations('Navbar')
+  const translate = useTranslations('Global')
   const theme = useTheme()
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"))
   return (
@@ -21,7 +21,7 @@ const PrimaryNavBar = () => {
               <Link href="#" underline='none' color={'#000'}>
                 <Box display="flex" alignItems="center" gap={1}>
                   <LocalCafeOutlinedIcon />
-                  <Typography fontFamily="charm" variant="h5">CoffeShop</Typography>
+                  <Typography fontFamily="charm" variant="h4">CoffeShop</Typography>
                 </Box>
               </Link>
               <Box display="flex" gap={6} alignItems="center">

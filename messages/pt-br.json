@@ -1,12 +1,58 @@
 {
-  "HomePage": {
-    "title": "Ola mundo!",
-    "about": "Vai la "
-  },
-  "Navbar" : {
+  "Global" : {
     "menu": "Menu" ,
     "aboutUs": "Sobre nós",
     "contact": "Contato",
-    "orderNow": "Peça agora"
-  }
+    "orderNow": "Peça agora",
+    "explore" : "explore",
+    "visitUs" : "Visite-nos",
+    "ourLocation" : "nossa localização",
+    "contactForm" : "Formulario de contato",
+    "faq" : "FAQ",
+    "ourDrinks" : "Nossas bebidas",
+    "coffe" : "café",
+    "tea" : "chá",
+    "specialityDrinks" : "Drinks Especiais",
+    "yourEmail" : "Seu Email",
+    "footerForm" : {
+      "title": "Fique Atualizado",
+      "about": "Se inscreva para receber as últimas notícias e ofertas exclusivas.",
+      "subscribe": "Se inscreva",
+      "errorEmailText" : "Por favor preencha um email válido",
+      "errorEmailEmpty" : "Email é obrigatório",
+      "success": "Email enviado com sucesso!",
+      "error": "Ocorreu um erro ao enviar o email.",
+      "sending": "Enviando..."
+    },
+    "presentation" : {
+      "titlePart1" : "Desperte seus sentidos",
+      "titlePart2": "com nossos cafés",
+      "titlePart3": "especiais",
+      "subtitlePart1" : "Ambiente acolhedor, WiFi rápido e os melhores grãos de café selecionados",
+      "subtitlePart2": " especialmente para você."
+    },
+      "specialMenu" : {
+      "capuccino" : {
+        "title" : "Capuccino Especial",
+        "description" : "Espresso cremoso com leite vaporizado e uma camada perfeita de espuma, finalizado com canela."
+      },
+      "chocolateCake" : {
+        "title" : "Bolo de Chocolate",
+        "description" : "Bolo caseiro com chocolate belga, recheio cremoso e cobertura delicada."
+      },
+      "coffe" : {
+        "title" : "Café Coado Especial" ,
+        "description" : "Grãos selecionados da região de Minas Gerais, torra média e preparado no método tradicional."
+      },
+      "mintTea" : {
+        "title" : "Chá de Menta Especial",
+        "description" : "Ervas selecionadas do Reino Unido, ervas frescas e preparada no método tradicional."
+      },
+      "pudim" : {
+        "title" : "Pudim Tia Rosa",
+        "description" : "Pudim caseiro com caramelo da Tia Rosa."
+      }
+    }
+
+}
 }

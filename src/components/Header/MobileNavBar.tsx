@@ -1,13 +1,10 @@
 import LocalCafeOutlinedIcon from '@mui/icons-material/LocalCafeOutlined';
 import { AppBar, Box, Link, Typography } from "@mui/material";
+import { StyledToolbar } from "../../styles/componentStyles/StyledComponents.theme";
 import { HamburguerMenu } from './HamburguerMenu';
-import { StyledToolbar } from "./styles/StyledComponents.theme";
 
 
 const MobileNavBar = () => {
-
-
-
   return (
     <>
       <Box >
@@ -17,7 +14,7 @@ const MobileNavBar = () => {
               <Link href="#" underline='none' color={'#000'}>
                 <Box display="flex" alignItems="center" gap={1}>
                   <LocalCafeOutlinedIcon />
-                  <Typography fontFamily="charm" variant="h5">CoffeShop</Typography>
+                  <Typography fontFamily="charm" variant="h4">CoffeShop</Typography>
                 </Box>
               </Link>
               <HamburguerMenu />

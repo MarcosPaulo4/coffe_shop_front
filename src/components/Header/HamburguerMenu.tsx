@@ -3,11 +3,11 @@ import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import { Box, IconButton, Paper, Popper } from "@mui/material";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
-import { StyledLink } from './styles/StyledComponents.theme';
+import { StyledLink } from '../../styles/componentStyles/StyledComponents.theme';
 
 
 export const HamburguerMenu = () => {
-  const translate = useTranslations('Navbar')
+  const translate = useTranslations('Global')
   const [isOpen, setIsOpen] = useState(false);
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 

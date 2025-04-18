@@ -3,10 +3,60 @@
     "title": "Hello world!",
     "about": "Go to the about page"
   },
-    "Navbar" : {
-    "menu": "Menu" ,
+  "Global" : {
+    "menu": "Menu",
     "aboutUs": "About Us",
     "contact": "Contact",
-    "orderNow": "Order Now"
-  }
+    "orderNow": "Order Now",
+    "explore" : "Explore",
+    "visitUs" : "Visit Us",
+    "ourLocation" : "Our Location",
+    "contactForm" : "Contact Form",
+    "faq" : "FAQ",
+    "ourDrinks" : "Our Drinks",
+    "coffe" : "Coffe",
+    "tea" : "Tea",
+    "specialityDrinks" : "Specialty Drinks",
+    "yourEmail" : "Your Email",
+    "footerForm" : {
+      "title": "Stay Updated",
+      "about": "Subscribe to our newsletter for the latest news and exclusive offers.",
+      "subscribe": "Subscribe",
+      "errorEmailText" : "Please enter a valid email address",
+      "errorEmailEmpty" : "Email is required",
+      "success": "Email sent successfully!",
+      "error": "An error occurred while sending the email.",
+      "sending": "Sending..."
+    },
+    "presentation" : {
+      "titlePart1" : "Awaken your senses",
+      "titlePart2": "with our specialty",
+      "titlePart3": "coffees",
+      "subtitlePart1" : "Cozy atmosphere, fast WiFi and the best coffee beans",
+      "subtitlePart2": "selected especially for you."
+    },
+    "specialMenu" : {
+      "capuccino" : {
+        "title" : "Special Capuccino",
+        "description" : "Creamy espresso with steamed milk and a perfect layer of foam, finished with cinnamon."
+      },
+      "chocolateCake" : {
+        "title" : "Chocolate Cake",
+        "description" : "Homemade cake with Belgian chocolate, creamy filling and delicate frosting."
+      },
+      "coffe" : {
+        "title" : "Special Brewed Coffee" ,
+        "description" : "Selected beans from the Minas Gerais region, medium roasted and prepared using the traditional method."
+      },
+      "mintTea" : {
+        "title" : "Special Mint Tea" ,
+        "description" : "Selected herbs from the UK, fresh herbs and prepared in the traditional method."
+      },
+      "pudim" : {
+        "title" : "Tia Rosa Pudim",
+        "description" : "Pudim caseiro com caramelo da Tia Rosa."
+      }
+    }
+    
+}
 }

@@ -1,3 +1,5 @@
+import { AlertProvider } from "@/components/Alert/useAlertContext";
+import PrimaryNavBar from "@/components/Header/NavBar";
 import { routing } from "@/i18n/routing";
 import theme from "@/styles/base.theme";
 import { Box, ThemeProvider } from "@mui/material";
@@ -19,21 +21,28 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
 
-  const { locale } = await params;;
+  const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
   return (
     <html lang={locale}>
-      <Box>
+      <body style={{ margin: 0, padding: 0 }}>
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
-            <NextIntlClientProvider>{children}</NextIntlClientProvider>
+            <NextIntlClientProvider>
+              <PrimaryNavBar />
+              <AlertProvider>
+                <Box component="main">
+                  {children}
+                </Box>
+              </AlertProvider>
+            </NextIntlClientProvider>
           </ThemeProvider>
         </AppRouterCacheProvider>
-      </Box>
+      </body>
     </html>
-  );
+  )
 }
 

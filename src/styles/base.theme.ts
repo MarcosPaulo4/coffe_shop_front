@@ -1,7 +1,7 @@
 "use client";
 
 import { createTheme } from "@mui/material";
-import { Charm, Geist_Mono, Lexend } from "next/font/google";
+import { Charm, Geist_Mono, Lexend, Young_Serif } from "next/font/google";
 
 const lexend = Lexend({
   variable: "--font-lexend",
@@ -17,6 +17,13 @@ export const charm = Charm({
   variable: "--font-charm",
   weight: ["400", "700"]
 })
+
+export const youngCherif = Young_Serif({
+weight:["400"]  
+})
+
+export const footerColor = "#000000";
+
 
 const baseTheme = createTheme({
   breakpoints: {
@@ -62,33 +69,20 @@ export const theme = createTheme(baseTheme, {
       },
     },
     h3: {
-      fontSize: "48px",
+      fontSize: "32px",
       fontWeight: 300,
       [baseTheme.breakpoints.only("md")]: {
-        fontSize: "44px",
+        fontSize: "30px",
       },
       [baseTheme.breakpoints.only("sm")]: {
-        fontSize: "42px",
+        fontSize: "28px",
       },
       [baseTheme.breakpoints.only("xs")]: {
-        fontSize: "40px",
+        fontSize: "26px",
       },
     },
     h4: {
-      fontSize: "42px",
-      fontWeight: 300,
-      [baseTheme.breakpoints.only("md")]: {
-        fontSize: "36px",
-      },
-      [baseTheme.breakpoints.only("sm")]: {
-        fontSize: "34px",
-      },
-      [baseTheme.breakpoints.only("xs")]: {
-        fontSize: "24px",
-      },
-    },
-    h5: {
-      fontSize: "24px",
+       fontSize: "24px",
       fontWeight: 300,
       [baseTheme.breakpoints.only("md")]: {
         fontSize: "22px",
@@ -98,6 +92,19 @@ export const theme = createTheme(baseTheme, {
       },
       [baseTheme.breakpoints.only("xs")]: {
         fontSize: "18px",
+      },
+    },
+    h5: {
+      fontSize: "20px",
+      fontWeight: 300,
+      [baseTheme.breakpoints.only("md")]: {
+        fontSize: "18px",
+      },
+      [baseTheme.breakpoints.only("sm")]: {
+        fontSize: "16px",
+      },
+      [baseTheme.breakpoints.only("xs")]: {
+        fontSize: "14px",
       },
     },
     h6: {
@@ -129,19 +136,26 @@ export const theme = createTheme(baseTheme, {
           }
         },
         outlinedPrimary: {
-          width: "130px",
-          height: "50px",
           borderRadius: "0px",
           textTransform: "none",
-          padding: "12px 24px",
           backgroundColor:"#ffffff", 
           color: baseTheme.palette.primary.main,
           '&:hover': {
-            backgroundColor: baseTheme.palette.primary.main, 
-            color: baseTheme.palette.background.default
+            backgroundColor: baseTheme.palette.primary.contrastText, 
+            color: "#ffffff"
           }
         }
       }
+    },
+    MuiContainer: {
+      styleOverrides: {
+            root: {
+          paddingTop: "50px !important",
+          paddingBottom: "50px !important",
+          paddingLeft: "0px !important",
+          paddingRight: "0px !important"
+        },
+      },
     },
 
   },
