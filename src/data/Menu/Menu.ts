@@ -1,30 +1,36 @@
 
-const cardMenuItens = (translate: (id: string) => string ) => [
+const MenuItens = (translate: (id: string) => string) => [
+
   {
+    groupby: "coffe",
     title: translate("specialMenu.capuccino.title"),
-    img: '/images//menu/capuccino.jpg',
-    description:  translate("specialMenu.capuccino.description"),
+    value: 12.90,
+    description: translate("specialMenu.capuccino.description"),
   },
-   {
+  {
+    groupby: "dessert",
     title: translate("specialMenu.chocolateCake.title"),
-    img: '/images//menu/chocolateCake.jpg',
+    value: 15.90,
     description: translate("specialMenu.chocolateCake.description")
   },
-   {
-    title:  translate("specialMenu.coffe.title"), 
-    img: '/images/menu/coffe.jpg',
+  {
+    groupby: "coffe",
+    title: translate("specialMenu.coffe.title"), 
+    value: 7.90,
     description:  translate("specialMenu.coffe.description"),
   },
-      {
+  {
+    groupby: "coffe",
     title:  translate("specialMenu.mintTea.title"),
-    img: '/images/menu/mintTea.jpg',
+    value: 7.90,
     description: translate("specialMenu.mintTea.description"),
   },
-          {
+  {
+    groupby:"dessert",
     title: translate("specialMenu.pudim.title"),
-    img: '/images/menu/pudim.jpg',
+    value: 12.00,
     description: translate("specialMenu.pudim.description"),
   },
 ];
 
-export default cardMenuItens;
+export default MenuItens;

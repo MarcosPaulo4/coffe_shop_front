@@ -3,8 +3,8 @@ import { ChevronLeft, ChevronRight } from "@mui/icons-material";
 import { Box, Card, CardContent, CardMedia, IconButton, Typography, useMediaQuery } from "@mui/material";
 import { useTranslations } from "next-intl";
 import { useRef } from "react";
+import cardMenuItens from "../../../../data/Menu/menuCardsItens";
 import { cardMediaStyles, cardStyles, iconButtonStyles, scrollBox } from "./menuCards.theme";
-import cardMenuItens from "./menuCardsItens";
 
 const MenuCards = () => {
   const translate = useTranslations("Global");
@@ -24,7 +24,7 @@ const MenuCards = () => {
   };
 
   return (
-    <Box position="relative">
+    <Box position="relative" >
       <IconButton
         onClick={() => scroll("left")}
         sx={{ left: -40, ...iconButtonStyles }}

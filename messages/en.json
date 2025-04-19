@@ -1,8 +1,4 @@
 {
-  "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
-  },
   "Global" : {
     "menu": "Menu",
     "aboutUs": "About Us",
@@ -18,6 +14,11 @@
     "tea" : "Tea",
     "specialityDrinks" : "Specialty Drinks",
     "yourEmail" : "Your Email",
+    "seeMenu" : "See complete menu",  
+    "ourSpecials": "Our Specials",
+    "meetOurProducts": "Get to know some of our products",
+    "moreLoved": "most loved by our customers and start falling in love",
+    "flavor": "with the unmistakable flavor of Tia Rosa Coffee Shop",
     "footerForm" : {
       "title": "Stay Updated",
       "about": "Subscribe to our newsletter for the latest news and exclusive offers.",
@@ -52,11 +53,27 @@
         "title" : "Special Mint Tea" ,
         "description" : "Selected herbs from the UK, fresh herbs and prepared in the traditional method."
       },
-      "pudim" : {
-        "title" : "Tia Rosa Pudim",
-        "description" : "Pudim caseiro com caramelo da Tia Rosa."
-      }
+      "pudim": {
+        "title": "Aunt Rosa's Pudim",
+        "description": "Homemade flan with Aunt Rosa's caramel."
     }
+        },
+    "history": {
+      "title" : "Our History",
+      "description" : "Coffee Shops Tia Rosa was born from the dream of Maria Rosa, affectionately known as Tia Rosa, who has always had a passion for creating special moments through coffee.",
+      "description2" : "Starting in 2010 as a small space, today we are a reference in quality coffee and friendly service in the region. Our difference lies in the careful selection of beans and the artisanal preparation of each drink.",
+      "description3" : "Our mission is to provide not only high-quality products, but a complete experience, with a cozy environment and fast internet connection for work or leisure",
+      "ourValues" : "Our Values",
+      "qualityTitle": "Impeccable Quality",
+      "qualityDescription": "Careful selection of the finest beans and ingredients",
+      "sustainabilityTitle": "Sustainability",
+      "sustainabilityDescription": "Environmentally responsible practices",
+      "serviceTitle": "Welcoming Service",
+      "serviceDescription": "Treating every customer like family",
+      "connectivityTitle": "Connectivity",
+      "connectivityDescription": "Fast internet for studying and working"
+}
+
     
 }
 }

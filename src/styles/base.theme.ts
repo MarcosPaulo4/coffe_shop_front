@@ -152,8 +152,8 @@ export const theme = createTheme(baseTheme, {
             root: {
           paddingTop: "50px !important",
           paddingBottom: "50px !important",
-          paddingLeft: "0px !important",
-          paddingRight: "0px !important"
+          paddingLeft: "20px !important",
+          paddingRight: "20px !important"
         },
       },
     },

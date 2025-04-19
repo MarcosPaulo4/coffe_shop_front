@@ -14,6 +14,11 @@
     "tea" : "chá",
     "specialityDrinks" : "Drinks Especiais",
     "yourEmail" : "Seu Email",
+    "seeMenu" : "Ver menu completo",  
+    "ourSpecials" : "Nossos Especiais",
+    "meetOurProducts" : "Conheça alguns dos nossos produtos",
+    "moreLoved" : "mais amados pelos clientes e comece a se apaixonar",
+    "flavor" : "pelo sabor inconfudível do Coffe Shop Tia Rosa",
     "footerForm" : {
       "title": "Fique Atualizado",
       "about": "Se inscreva para receber as últimas notícias e ofertas exclusivas.",
@@ -52,6 +57,22 @@
         "title" : "Pudim Tia Rosa",
         "description" : "Pudim caseiro com caramelo da Tia Rosa."
       }
+    },
+    "history" : { 
+      "title" : "Nossa História",
+      "description" : "  O Coffee Shops Tia Rosa nasceu do sonho de Maria Rosa, carinhosamente conhecida como Tia Rosa, que sempre teve paixão por criar momentos especiais através do café.",
+      "description2" : " Iniciado em 2010 como um pequeno espaço, hoje somos referência em café de qualidade e atendimento acolhedor na região. Nosso diferencial está na seleção cuidadosa dos grãos e no preparo artesanal de cada bebida.",
+      "description3" : " Nossa missão é proporcionar não apenas produtos de alta qualidade, mas uma experiência completa, com ambiente aconchegante e conexão de internet rápida para trabalho ou lazer.",
+      "ourValues" : "Nossos Valores",
+      "qualityTitle" : "Qualidade Impecável",
+      "qualityDescription" : "Seleção rigorosa dos melhores grãos e ingredientes",
+      "sustainabilityTitle" : "Sustentabilidade",
+      "sustainabilityDescription" : "Práticas responsáveis com o meio ambiente",
+      "serviceTitle" : "Atendimento Acolhedor",
+      "serviceDescription" : "Tratar cada cliente como parte da família",
+      "connectivityTitle": "Conectividade",
+      "connectivityDescription" : "Internet rápida para estudo e trabalho"
+
     }
 
 }
