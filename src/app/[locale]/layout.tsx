@@ -4,6 +4,7 @@ import { routing } from "@/i18n/routing";
 import theme from "@/styles/base.theme";
 import { Box, ThemeProvider } from "@mui/material";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
@@ -55,6 +56,7 @@ export default async function LocaleLayout({
               <AlertProvider>
                 <Box component="main">
                   {children}
+                  <SpeedInsights />
                 </Box>
               </AlertProvider>
             </NextIntlClientProvider>
