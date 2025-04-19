@@ -3,7 +3,7 @@
 import AlertMessage from "@/components/Alert/AlertMessage";
 import PrimaryFooter from "@/components/Footer/Footer";
 import History from "@/modules/Home/History";
-import OurMenu from "@/modules/Home/Menu";
+import OurMenu from "@/modules/Home/OurMenu";
 import EspecialMenu from "@/modules/Home/OursSpecials";
 import Presentation from "@/modules/Home/Presentation";
 import { footerColor } from "@/styles/base.theme";
