@@ -8,9 +8,28 @@ import type { Metadata } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 
+
 export const metadata: Metadata = {
-  title: "CoffeeShop",
+  title: "Tia Rosa CoffeeShop",
   description: "A simple coffee shop app",
+  icons: {
+    icon: "/images/logo.jpg",
+    shortcut: "/images/logo.jpg",
+    apple: "/images/logo.jpg",
+  },
+  alternates: {
+    languages: {
+      pt: "/pt",
+      en: "/en",
+    },
+  },
+  openGraph: {
+    url: "https://tiarosacoffechop.co",
+    siteName: "Tia Rosa Coffe Shop",
+    description:
+      "A simple cofee shop app",
+    type: "website",
+  },
 };
 
 export default async function LocaleLayout({
