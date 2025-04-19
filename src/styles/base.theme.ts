@@ -15,11 +15,14 @@ const geistMono = Geist_Mono({
 
 export const charm = Charm({
   variable: "--font-charm",
-  weight: ["400", "700"]
+  weight: ["400", "700"],
+  subsets: ["latin"],
 })
 
 export const youngCherif = Young_Serif({
-weight:["400"]  
+  weight: ["400"],  
+  subsets: ["latin"],
+  variable: "--font-young-serif",
 })
 
 export const footerColor = "#000000";
