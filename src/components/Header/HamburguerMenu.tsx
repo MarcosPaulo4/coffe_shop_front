@@ -40,9 +40,9 @@ export const HamburguerMenu = () => {
       >
         <Paper >
           <Box display="flex" flexDirection="column" gap={1} alignItems="center" width={200}>
-            <StyledLink href="#">{translate('menu')}</StyledLink>
-            <StyledLink href="#" >{translate('aboutUs')}</StyledLink>
-            <StyledLink href="#" >{translate('contact')}</StyledLink>
+            <StyledLink href="#ourMenu">{translate('menu')}</StyledLink>
+            <StyledLink href="#ourHistory" >{translate('aboutUs')}</StyledLink>
+            <StyledLink href="#contact" >{translate('contact')}</StyledLink>
           </Box>
         </Paper>
 
