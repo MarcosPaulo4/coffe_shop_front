@@ -16,7 +16,7 @@ const History = () => {
   const col2 = items.slice(2, 4);
 
   return (
-    <Container >
+    <Container id="ourHistory">
       <Box display="flex" gap={8} alignItems="center" flexDirection={isMedium ? "column" : "row"}>
         <Box display="flex" >
           <Box
@@ -57,10 +57,11 @@ const History = () => {
                 display="flex"
                 flexDirection="column"
                 alignItems="flex-start"
-                gap={2}
+                justifyContent="center"
+                gap={1}
               >
                 {column.map((item, i) => (
-                  <Box key={i} display="flex" alignItems="flex-start" gap={2}>
+                  <Box key={i} display="flex" alignItems="flex-start" gap={1}>
                     {item.icon}
                     <Box>
                       <Typography variant="h6" fontWeight="bold">

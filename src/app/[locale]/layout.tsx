@@ -2,7 +2,7 @@ import { AlertProvider } from "@/components/Alert/useAlertContext";
 import PrimaryNavBar from "@/components/Header/NavBar";
 import { routing } from "@/i18n/routing";
 import theme from "@/styles/base.theme";
-import { Box, ThemeProvider } from "@mui/material";
+import { Box, GlobalStyles, ThemeProvider } from "@mui/material";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
@@ -31,6 +31,10 @@ export const metadata: Metadata = {
       "A simple cofee shop app",
     type: "website",
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default async function LocaleLayout({
@@ -51,6 +55,11 @@ export default async function LocaleLayout({
       <body style={{ margin: 0, padding: 0 }}>
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
+            <GlobalStyles
+              styles={{
+                html: { scrollBehavior: "smooth", width: "100%", height: "100%" },
+              }}
+            />
             <NextIntlClientProvider>
               <PrimaryNavBar />
               <AlertProvider>

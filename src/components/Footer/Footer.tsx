@@ -12,12 +12,13 @@ const PrimaryFooter = () => {
 
   return (
     <Box
+      id="contact"
       sx={{
         backgroundColor: footerColor,
         width: "100%",
       }}
     >
-      <Container>
+      <Container >
         <Box
           display="flex"
           flexDirection="column"

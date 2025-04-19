@@ -25,9 +25,9 @@ const PrimaryNavBar = () => {
                 </Box>
               </Link>
               <Box display="flex" gap={6} alignItems="center">
-                <StyledLink href="#">{translate('menu')}</StyledLink>
-                <StyledLink href="#" >{translate('aboutUs')}</StyledLink>
-                <StyledLink href="#" >{translate('contact')}</StyledLink>
+                <StyledLink href="#ourMenu">{translate('menu')}</StyledLink>
+                <StyledLink href="#ourHistory" >{translate('aboutUs')}</StyledLink>
+                <StyledLink href="#contact" >{translate('contact')}</StyledLink>
               </Box>
 
               <Button variant="contained" style={{

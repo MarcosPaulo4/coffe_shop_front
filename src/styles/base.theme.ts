@@ -28,6 +28,7 @@ export const youngCherif = Young_Serif({
 export const footerColor = "#000000";
 
 
+
 const baseTheme = createTheme({
   breakpoints: {
     values: {
@@ -55,6 +56,7 @@ const baseTheme = createTheme({
     fontFamily: `${lexend.style.fontFamily}, ${geistMono.style.fontFamily}`,
   },
 });
+
 
 export const theme = createTheme(baseTheme, {
   typography: {
@@ -152,7 +154,8 @@ export const theme = createTheme(baseTheme, {
     },
     MuiContainer: {
       styleOverrides: {
-            root: {
+        root: {
+          scrollMarginTop: "80px",
           paddingTop: "50px !important",
           paddingBottom: "50px !important",
           paddingLeft: "20px !important",
