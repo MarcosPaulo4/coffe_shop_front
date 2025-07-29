@@ -1,38 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📱 CoffeShop
+
+![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+
+
+<p align="center">
+<img width="1919" height="906" alt="Image" src="https://github.com/user-attachments/assets/8a46dd37-f3b7-4d0d-a9db-1a27caca3ebf" />
+</p>
+
+---
+
+## 🇧🇷 Descrição em Português
+
+**CoffeShop é um projeto feito para estudos de tecnologias**
+
+É uma simples Landing Page feita com o intuito de testar alguns conceitos focado em landing pages
+
+---
+
+## Tech Stack 
+
+- Next.js – Framework React com renderização híbrida (SSR e SSG) e ótimo para performance.
+
+- React Hook Form – Facilita o gerenciamento de formulários de forma segura, performática e simples.
+
+- Zod – Biblioteca de validação de esquemas TypeScript, utilizada para garantir a integridade dos dados dos formulários.
+
+
+- Material UI (MUI) – Biblioteca de componentes React com alta personalização e fácil integração com temas.
+
+---
 
 Url: https://tiarosacoffeshop.vercel.app/pt-br
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
